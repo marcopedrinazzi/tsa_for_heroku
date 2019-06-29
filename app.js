@@ -10,10 +10,9 @@ var favicon = require('serve-favicon');
 var indexRouter = require('./routes/index');
 
 var app = express();
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
-	console.log('Starting at ${port}');
-
+const port = process.env.PORT || 5000;
+app.listen(port, function () {
+  console.log('Example app listening on port '+port);
 });
 
 // view engine setup
