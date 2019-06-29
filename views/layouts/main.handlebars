@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Marco Pedrinazzi">
+    <meta name="description" content="Twitter Sentiment Analysis - Developed by Marco Pedrinazzi">
+    <meta property="og:description" content="Twitter Sentiment Analysis - Developed by Marco Pedrinazzi">
+    <meta property="og:site_name" content="Twitter Sentiment Analysis - Developed by Marco Pedrinazzi">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="Twitter Sentiment Analysis - Developed by Marco Pedrinazzi">
+    <meta name="twitter:title" content="Twitter Sentiment Analysis - Developed by Marco Pedrinazzi">
+    <meta name="twitter:image" content="images/Twitter-icon.png">
+    <title>Twitter Sentiment Analysis</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- CSS per il template -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/sticky-footer-navbar-light.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  </head>
+
+  <body>
+     <!-- Includo l'header come partials -->
+      {{> header}}
+
+    <!-- Includo il contenuto della view specifica chiamata dalla funzione res.render() -->
+      {{{body}}}
+
+    <!-- Includo il footer come partials -->
+      {{> footer }}
+ 
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="javascripts/switcher.js"></script>
+    <script src="javascripts/ajax.js"></script>
+
+  </body>
+</html>

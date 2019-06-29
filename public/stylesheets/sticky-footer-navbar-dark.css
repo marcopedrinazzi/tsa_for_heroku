@@ -1,0 +1,78 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color: #243447;
+  color:white;
+  padding-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #141d26;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+th,td{
+	color:white;
+}
+
+#error-group{
+  display: none;
+  margin-top:20px;
+}
+
+#success-card{
+  display:none;
+  margin-top:20px;
+}
+
+.scrollabile{
+  display:none;
+  margin-top:50px;
+  height: 350px;
+  overflow-y: scroll;
+}
+
+.riga-colorata{
+  color:white;
+}
+
+strong{
+  font-weight: 700;
+}
+
+.big-text{
+  font-size:20px;
+  padding:40px;
+  background-color:#00acee;
+}
+
+#download{
+  display:none;
+}
