@@ -5,7 +5,7 @@
     Sentiment analysis is widely applied to <strong>voice of the customer</strong> materials such as reviews and survey responses, <strong>online and social media</strong>, and healthcare materials for applications that range from <strong>marketing</strong> to <strong>customer service</strong> to <strong>clinical medicine</strong>.</p>
   <p class="lead"><strong><u>The project works only with text written in English</u></strong> and it is based on <a href="https://github.com/thisandagain/sentiment" target="_blank">Sentiment</a>: a Node.js module that uses the AFINN-165 wordlist and Emoji Sentiment Ranking to perform sentiment analysis on arbitrary blocks of input text.</p>
   <p class="lead"><strong><a href="https://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010" target="_blank">AFINN</a></strong> is a list of words rated for valence with an integer between minus five (negative) and plus five (positive). Sentiment analysis is performed by cross-checking the string tokens(words, emojis) with the AFINN list and getting their respective scores. The comparative score is simply: sum of each token / number of tokens.</p>
-  <p class="lead">To understand better the results, here it is a brief explanation of the returned object by the sentiment analysis:
+  <p class="lead">To understand better the results, here it is a brief explanation of the returned object by the sentiment analysis:  </p>
     <ul>
       <li><strong>Score</strong>: Score calculated by adding the sentiment values of recongnized words.</li>
       <li><strong>Comparative</strong>: Comparative score of the input string.</li>
@@ -13,7 +13,6 @@
       <li><strong>Positive</strong>: List of postive words in input string that were found in AFINN list.</li>
       <li><strong>Negative</strong>: List of negative words in input string that were found in AFINN list.</li>
     </ul>
-  </p>
   <h4>You can search tweets posted on Twitter until a week ago from today. You can use to search a word, a profile name, an hashtag or <a href="/operatori" target="_blank"><i>click here</i></a> to discover more. Every form field is <strong>compulsory</strong>.</h4>
     <h4>Type inside the search bar, set the search parameters and look at the Sentiment Analysis' results below.</h4><br>
       <form name="cercaForm" id="search_form" action="/search" method="POST">
